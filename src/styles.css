@@ -1,3 +1,13 @@
 h1{
     color: red;
+font-family: 'Lobster', cursive;
+}
+
+h2 {
+     font-family: 'Roboto', sans-serif;
+     font-weight:  normal !important;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
 }
