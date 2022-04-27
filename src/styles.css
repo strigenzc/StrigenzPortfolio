@@ -153,8 +153,7 @@ footer {
   text-decoration: none;
 }
 
-
-@media @media (max-width: 767px) {
+@media (max-width: 767px) {
   body {
     text-align: center;
     margin-bottom: 50px;
@@ -176,10 +175,19 @@ footer {
     font-size: 85px;
   }
 
-  .contact-header {
+    .contact-header {
     font-size: 34px;
   }
+
+    .double-border {
+  max-width: 600px;
+  }
+
+  .double-border:before {
+    max-width: 600px;
+  }
 }
+
 
 @media (max-width: 375px) {
   .main-name {
@@ -191,12 +199,26 @@ footer {
   }
 
   body {
-      max-width: 350px;
+    max-width: 350px;
   }
 
   .contact {
     font-size: 24px;
   }
+
+    .portfolio-info {
+      padding: 0;
+      text-align: center;
+  }
+
+.text-title{
+padding: 20px;
+margin-top: 20px
+}
+
+.primary-link {
+    max-width: 150px;
+}
 }
 
 .under {
