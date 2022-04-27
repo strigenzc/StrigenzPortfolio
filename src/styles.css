@@ -3,8 +3,9 @@
   --primary-color: #064c72;
   --secondary-color: #026c80;
   --tertiary-color: #8db4ad;
-  --border-color-one: #e9311a;
+  --border-color-one:rgba(232, 48, 25, 0.65);
   --last-color: #ed6335;
+  --footer-color:rgba(0, 0, 0, 0.2);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -20,7 +21,7 @@ body {
 
 h1 {
   font-family: "Pacifico", cursive;
-  color: var(--primary-color);
+  color: linear-gradient(90deg, rgb(2, 105, 124) 0%, rgb(224, 47, 24) 100%);
   font-size: 66px;
 }
 
@@ -38,19 +39,19 @@ footer {
   padding: 50px;
 }
 
-.navbar {
+.my-navbar {
   color: rgba(236, 174, 125, 0.4);
 }
 
 .header-info {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .icons {
   padding: 15px;
   margin-top: 200px;
   text-decoration: none;
-  color: var(--border-color-one);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .header-info {
@@ -128,10 +129,39 @@ footer {
   box-shadow: var(--box-shadow);
 }
 
-@media (max-width: 575px) .about-img {
-  margin: 20px auto;
+@media (max-width: 767px) {
+  body {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  footer {
+    padding: 20px;
+  }
+
+  .paragraph-info {
+    padding: 20px;
+  }
+
+  .picture {
+    display: none;
+  }
+
+  .about-page-header {
+    font-size: 85px;
+  }
+
+  .contact-header {
+    font-size: 34px;
+  }
 }
 
-@media (max-width: 768px) .about-img {
-  margin-top: 50px;
+@media (max-width: 360px) {
+  .mini-heading {
+    font-size: 75px !important;
+  }
+
+  .contact {
+    font-size: 24px;
+  }
 }
