@@ -153,72 +153,29 @@ footer {
   text-decoration: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
   body {
     text-align: center;
-    margin-bottom: 50px;
+    padding: 10pxx;
   }
 
-  footer {
-    padding: 20px;
+  h2 {
+    font-size: 44px;
   }
 
-  .paragraph-info {
-    padding: 20px;
+  .hero {
+    padding: 80px 20px;
   }
 
-  .picture {
-    display: none;
+  .project-desciption {
+    padding: 0;
+    text-align: center;
   }
-
-  .about-page-header {
-    font-size: 85px;
-  }
-
-    .contact-header {
-    font-size: 34px;
-  }
-
-    .double-border {
-  max-width: 600px;
-  }
-
-  .double-border:before {
-    max-width: 600px;
-  }
-}
-
-
-@media (max-width: 375px) {
-  .main-name {
-    font-size: 25px !important;
-  }
-
-  footer {
-    max-width: 250px;
-  }
-
-  body {
-    max-width: 350px;
-  }
-
-  .contact {
-    font-size: 24px;
-  }
-
-    .portfolio-info {
-      padding: 0;
-      text-align: center;
-  }
-
-.text-title{
-padding: 20px;
-margin-top: 20px
-}
-
-.primary-link {
-    max-width: 150px;
-}
 }
 
 .under {
