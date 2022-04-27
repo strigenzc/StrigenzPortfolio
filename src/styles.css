@@ -71,21 +71,6 @@ footer {
   top: 140px;
 }
 
-.under {
-  padding: 45%;
-  border: #8db4ad;
-  border-radius: 5px;
-  background-color: #d2d2d2;
-  position: absolute;
-  top: 30px;
-  margin-top: 80px;
-  right: 90px;
-  padding: 250px;
-  width: 435px;
-  height: 450px;
-  max-width: 250px;
-}
-
 .float-left {
   float: left !important;
 }
@@ -168,7 +153,8 @@ footer {
   text-decoration: none;
 }
 
-@media (max-width: 767px) {
+
+@media @media (max-width: 767px) {
   body {
     text-align: center;
     margin-bottom: 50px;
@@ -195,12 +181,35 @@ footer {
   }
 }
 
-@media (max-width: 360px) {
-  .mini-heading {
-    font-size: 75px !important;
+@media (max-width: 375px) {
+  .main-name {
+    font-size: 25px !important;
+  }
+
+  footer {
+    max-width: 250px;
+  }
+
+  body {
+      max-width: 350px;
   }
 
   .contact {
     font-size: 24px;
   }
+}
+
+.under {
+  padding: 45%;
+  border: #8db4ad;
+  border-radius: 5px;
+  background-color: #d2d2d2;
+  position: absolute;
+  top: 30px;
+  margin-top: 80px;
+  right: 90px;
+  padding: 250px;
+  width: 435px;
+  height: 450px;
+  max-width: 250px;
 }
