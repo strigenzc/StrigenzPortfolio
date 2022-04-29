@@ -146,6 +146,22 @@ footer {
   text-decoration: none;
 }
 
+.resume-title {
+  font-size: 25px;
+  font-family: "Merriweather", serif;
+  color: var(--secondary-color);
+}
+
+.resume-info {
+  font-size: 17px;
+  font-family: "Merriweather", serif;
+}
+
+.my-resume {
+  font-style: italic;
+  font-size: 20px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
