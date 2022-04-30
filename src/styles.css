@@ -68,13 +68,6 @@ footer {
   box-shadow: 60px -56px #8db4ad;
 }
 
-.alt-me {
-  max-width: 600px;
-  padding: 25px;
-  margin-bottom: 15px;
-box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.1);
-}
-
 .double-border {
   position: relative;
   border: 3px solid #bdbdbd;
@@ -109,9 +102,9 @@ box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.1);
 
 .contact-header {
   color: var(--secondary-color);
-    font-family: "Lexend Mega", sans-serif;
-    font-size: 46px;
-  }
+  font-family: "Lexend Mega", sans-serif;
+  font-size: 46px;
+}
 
 .contact-link {
   background: var(--secondary-color);
@@ -123,6 +116,19 @@ box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.1);
   color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
   box-shadow: var(--box-shadow);
+}
+
+.email-link {
+  background: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  font-size: 40px;
+  font-family: "Merriweather", serif;
+  border: #026c80;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  padding: 15px 35px 15px 35px;
+  text-decoration: none;
+  color: white;
 }
 
 .row {
@@ -175,27 +181,16 @@ box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.1);
   font-size: 20px;
 }
 
-.p-info{
+.p-info {
   font-family: "Merriweather", serif;
-  text-align:unset;
-  font-size: 15px;
-}
-
-.contact-header {
-  background-color: #8db4ad;
-  border: 15px #121212;
-  
-}
-
-.email-link {
-  text-decoration: none;
-  color: black;
+  text-align: unset;
+  font-size: 18px;
 }
 
 @media (max-width: 415px) {
   h1 {
     font-size: 44px;
-    line-height: 2;
+    line-height: 1.5;
   }
 
   body {
@@ -214,5 +209,13 @@ box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.1);
   .project-desciption {
     padding: 0;
     text-align: center;
+  }
+
+  .p-info {
+    font-size: 12px;
+  }
+
+  .aboutHeader {
+    font-size: 30px;
   }
 }
