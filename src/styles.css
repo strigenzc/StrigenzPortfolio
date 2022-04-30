@@ -218,4 +218,15 @@ footer {
   .aboutHeader {
     font-size: 30px;
   }
+
+  .email-link {
+    padding: 20px 5px 20px 5px;
+    font-size: 20px;
+  }
+
+  .navigation-links {
+    padding: 5px;
+    margin: auto;
+    margin-top: 10px;
+  }
 }
