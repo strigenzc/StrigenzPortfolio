@@ -61,11 +61,18 @@ footer {
 
 .main-me {
   position: absolute;
-  width: 435px;
+  width: 445px;
   height: 450px;
   left: 658px;
   top: 140px;
   box-shadow: 60px -56px #8db4ad;
+}
+
+.alt-me {
+  max-width: 600px;
+  padding: 25px;
+  margin-bottom: 15px;
+box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.1);
 }
 
 .double-border {
@@ -99,6 +106,12 @@ footer {
   text-decoration: none;
   text-transform: capitalize;
 }
+
+.contact-header {
+  color: var(--secondary-color);
+    font-family: "Lexend Mega", sans-serif;
+    font-size: 46px;
+  }
 
 .contact-link {
   background: var(--secondary-color);
@@ -162,7 +175,24 @@ footer {
   font-size: 20px;
 }
 
-@media (max-width: 900px) {
+.p-info{
+  font-family: "Merriweather", serif;
+  text-align:unset;
+  font-size: 15px;
+}
+
+.contact-header {
+  background-color: #8db4ad;
+  border: 15px #121212;
+  
+}
+
+.email-link {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 415px) {
   h1 {
     font-size: 44px;
     line-height: 2;
@@ -175,6 +205,10 @@ footer {
 
   h2 {
     font-size: 44px;
+  }
+
+  .container {
+    padding: 20px;
   }
 
   .project-desciption {
